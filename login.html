@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MABIM - LOGIN</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background: linear-gradient(-45deg, #0aaf20, #5903fa, #e40808, #d52349);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            height: 100vh;
+        }
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+   <nav>
+            <img src="img/logo.png" height="50px">
+            <a href="index.html">HOME</a>
+            <a href="">CONTACT</a>
+            <a href="login.html">LOGIN</a>
+        </nav>
+        <br>
+    <center>
+        <div class="warp">
+            <div class="bg-login">         
+                <h1>FORM LOGIN</h1>
+                <form name="login">
+                    <input type="text" placeholder="username" id="username" name="username"><br>
+                    <input type="password" placeholder="password" id="password" name="password"><br>
+                    <input type="button" value="LOGIN" onclick="Login()">
+                    <a href="index.html">KEMBALI</a><br>
+                    <audio src="audio/Mars_HIMASI_Universitas_Subang.mp3" controls></audio>
+                </form>
+                <footer><h3>&copy; Achmad Razkha</h3></footer>
+            </div>
+        </div>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
